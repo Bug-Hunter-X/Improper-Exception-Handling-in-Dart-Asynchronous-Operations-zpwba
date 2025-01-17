@@ -1,0 +1,3 @@
+# Improper Exception Handling in Dart Asynchronous Operations
+
+This repository demonstrates a common issue in Dart asynchronous programming: insufficiently specific exception handling. The `bug.dart` file showcases code that uses a generic `catch` block, while the improved version in `bugSolution.dart` provides more granular exception handling, making the code more robust and easier to debug.  This is crucial for creating reliable and maintainable applications.
